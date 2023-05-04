@@ -5,7 +5,7 @@ const nextConfig = {
   },
   env:{
     neon_psql: 'postgres://ShahzaibSE:45XjdAVRPMuF@ep-silent-lab-325030.us-east-2.aws.neon.tech/neondb',
-    accessToken: "f2b978e7d9445f7981388e37e7633cfb38ea17b0b6db787d8a4bb6df8a79e33a"
+    accessToken: "27c624cbb4bb2098ada2a08a6ecd743b0a67b086a7df4ea96ef4de9cbd770ef6"
   }
 }
 
