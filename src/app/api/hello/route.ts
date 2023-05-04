@@ -8,7 +8,10 @@ import {
   Updateable,
 } from 'kysely';
 import { NeonDialect } from 'kysely-neon';
+import axios from 'axios';
 
-export async function GET(request: Request) {
-  return new Response('Hello, Next.js!')
+export async function GET(request: NextRequest) {
+  // return NextResponse.json({message: "Hello World"});
+  const bookList = await fetch("https://simple-books-api.glitch.me/books");
+  return NextResponse.json({books: bookList});
 }
